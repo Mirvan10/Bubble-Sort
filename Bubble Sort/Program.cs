@@ -57,7 +57,7 @@ namespace BubbleSort
                 DateTime startTid = DateTime.Now;
                 BubbleSort(data);
                 TimeSpan deltaTid = DateTime.Now - startTid;
-                Console.WriteLine("Det tog {0:0.00} ms att sortera.\n", deltaTid.TotalMilliseconds);
+                Console.WriteLine("Sorteringstiden: {0:0.00} ms.\n", deltaTid.TotalMilliseconds);
 
             }
         }
